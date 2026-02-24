@@ -1,8 +1,3 @@
-네, 아래 박스 안의 내용을 **전체 복사(Copy)**해서 `README.md`라는 이름의 파일에 그대로 붙여넣으시면 됩니다. 마크다운 문법을 적용해 시각적으로 깔끔하게 정리해 두었습니다.
-
----
-
-```markdown
 # 🐱 Dog vs 🐶 Cat Classifier (Xception)
 
 이 프로젝트는 **TensorFlow**의 **Xception** 모델을 사용하여 강아지와 고양이를 분류하는 웹 서비스입니다. **Gradio**를 활용하여 누구나 쉽게 이미지를 업로드하고 결과를 확인할 수 있습니다.
@@ -64,16 +59,5 @@ python app.py
 * **Input Size**: 299 x 299 (Xception 기본 규격)
 * **Pre-processing**: `tf.keras.applications.xception.preprocess_input` 사용
 * **Model Layer**: 출력 노드가 2개(Softmax) 또는 1개(Sigmoid)인 경우 모두 대응 가능하도록 설계됨
-
-```
-
----
-
-### 💡 팁: GitHub에 올릴 때
-GitHub 저장소에 이 파일을 `README.md`라는 이름으로 올리면, 저장소 메인 화면에 예쁘게 렌더링되어 나타납니다.
-
-
-
-혹시 이 내용을 바탕으로 **GitHub에 코드를 업로드(Git Bash 사용법 등)**하는 과정도 도와드릴까요?
 
 ```
