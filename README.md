@@ -60,4 +60,3 @@ python app.py
 * **Pre-processing**: `tf.keras.applications.xception.preprocess_input` 사용
 * **Model Layer**: 출력 노드가 2개(Softmax) 또는 1개(Sigmoid)인 경우 모두 대응 가능하도록 설계됨
 
-```
